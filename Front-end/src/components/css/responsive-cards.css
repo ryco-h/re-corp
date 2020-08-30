@@ -1,0 +1,23 @@
+.cards {
+    max-width: "350px";
+}
+
+.imgg {
+    transition: transform .2s; 
+    margin: 0 auto;
+    border-radius: 5px;
+    width:100%;
+    height:auto;
+  }
+
+.imgg:hover {
+    transform: scale(1.1);
+    position: relative;
+  }
+
+@media screen and (max-width: 1200px) {
+    .card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
